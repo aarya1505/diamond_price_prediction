@@ -5,53 +5,53 @@ This project predicts the price of diamonds based on their attributes such as ca
 
 The notebook demonstrates the full workflow:
 
-Importing and cleaning data
+📥 Importing and cleaning data
 
-Exploratory Data Analysis (EDA)
+🔎 Exploratory Data Analysis (EDA)
 
-Feature Engineering
+⚙️ Feature Engineering
 
-Model Training & Evaluation (Linear Regression, Decision Tree, Random Forest, KNN, XGBoost, etc.)
+🤖 Model Training & Evaluation (Linear Regression, Decision Tree, Random Forest, KNN, XGBoost, etc.)
 
-Performance comparison using metrics like RMSE and R² score
+📈 Performance comparison using RMSE and R² score
 
 📂 Dataset
 
-The dataset used is: Diamond Price Prediction.csv
+Dataset: Diamond Price Prediction.csv
 
 Rows: 53,940
 
-Columns:
+Features:
 
-carat: Weight of the diamond
+carat → Weight of the diamond
 
-cut: Quality of the cut (Fair, Good, Very Good, Premium, Ideal)
+cut → Quality of the cut (Fair, Good, Very Good, Premium, Ideal)
 
-color: Diamond color (D–J)
+color → Diamond color (D–J)
 
-clarity: Diamond clarity (I1, SI2, SI1, VS2, VS1, VVS2, VVS1, IF)
+clarity → Diamond clarity (I1, SI2, SI1, VS2, VS1, VVS2, VVS1, IF)
 
-depth: Total depth percentage
+depth → Total depth percentage
 
-table: Width of top of diamond relative to widest point
+table → Width of top of diamond relative to widest point
 
-price: Price of the diamond in USD (target variable)
+price → Price of the diamond in USD (target variable)
 
-x, y, z: Dimensions of the diamond (length, width, depth)
+x, y, z → Dimensions of the diamond (length, width, depth)
 
 ⚙️ Technologies & Libraries
 
-Python
+🐍 Python
 
-NumPy, Pandas – Data Handling
+📊 NumPy, Pandas – Data Handling
 
-Matplotlib, Seaborn – Visualization
+🎨 Matplotlib, Seaborn – Visualization
 
-Scikit-learn – Machine Learning (Preprocessing, Models, Metrics)
+🤖 Scikit-learn – Machine Learning (Preprocessing, Models, Metrics)
 
-XGBoost – Advanced regression
+🚀 XGBoost – Advanced Regression
 
-Google Colab / Jupyter Notebook – Development environment
+☁️ Google Colab / Jupyter Notebook – Development Environment
 
 🚀 Models Implemented
 
@@ -65,28 +65,28 @@ K-Nearest Neighbors (KNN) Regressor
 
 XGBoost Regressor
 
-Model comparison using cross-validation and RMSE
+✅ Model comparison using cross-validation and RMSE
 
 📊 Results
 
 Compared multiple regression algorithms
 
-Identified XGBoost & Random Forest as top-performing models with the lowest error values
+XGBoost & Random Forest gave the best performance with the lowest error values
 
-📌 How to Run
+⚡ How to Run
 
-Clone this repository:
+1️⃣ Clone this repository
 
 git clone https://github.com/your-username/diamond-price-prediction.git
 cd diamond-price-prediction
 
 
-Install dependencies:
+2️⃣ Install dependencies
 
 pip install -r requirements.txt
 
 
-Open and run the Jupyter/Colab notebook:
+3️⃣ Run the notebook
 
 jupyter notebook Project_of_diamond_price_prediction.ipynb
 
@@ -94,15 +94,15 @@ jupyter notebook Project_of_diamond_price_prediction.ipynb
 
 The notebook includes visualizations for:
 
-Distribution of diamond prices
+📈 Distribution of diamond prices
 
-Price vs. Carat relationship
+💎 Price vs. Carat relationship
 
-Price across Cut, Color, and Clarity
+✨ Price across Cut, Color, and Clarity
 
-Correlation heatmaps
+🔥 Correlation heatmaps
 
-📌 Future Improvements
+🔮 Future Improvements
 
 Hyperparameter tuning for better accuracy
 
